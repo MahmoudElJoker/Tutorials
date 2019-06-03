@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ajax test</title>
+<script type="text/javascript">
+function load(){
+if(window.XMLHttpRequest){
+xmlhttp = new XMLHttpRequest();
+} else{
+
+xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
+}	
+
+xmlhttp.onreadystatechange = function(){
+	if(xmlhttp.readyState == 4 && xmlhttp.status == 200){
+document.getElementById('test-j').innerHTML = xmlhttp.responseText;
+
+	}
+
+}
+
+xmlhttp.open('GET','ajax-test1.php',true);
+xmlhttp.send();
+	
+}
+
+</script>
+</head>
+<body>
+<input type="submit" value="submit" onclick="load();" />
+<div id="test-j"></div>
+</body>
+</html>

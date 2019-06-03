@@ -1,0 +1,4 @@
+$_SERVER['HTTP_HOST']; //for host name for ex www.name.com
+$_SERVER['SCRIPT_NAME']; // for the full link of current file without host name for ex /tut/php/index.php
+$_SERVER['SCRIPT_FILENAME']; //for the location of the file in the server for ex :- c:/web/tut/php/index.php
+$_SERVER['HTTP_REFERER']; // to know the page/link the user come from...
