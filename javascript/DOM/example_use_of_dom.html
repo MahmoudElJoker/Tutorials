@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Use Of DOM</title>
+</head>
+<body>
+<p id="CountryClients"></p>
+<script type="text/JavaScript">
+var country = {Name: "Germany",clients: 300};
+var x = country;
+var y = x;
+x.clients = 20;
+y.Name = "Finland";
+document.getElementById("CountryClients").innerHTML = 
+x.Name + " has " + country.clients + " clients";
+</script>
+</body>
+</htmL>

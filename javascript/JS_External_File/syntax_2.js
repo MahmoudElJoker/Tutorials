@@ -1,0 +1,1 @@
+string="mido is smart cuz mido is a programmer";phonenumber=01346794883;document.write(string+" "+phonenumber);

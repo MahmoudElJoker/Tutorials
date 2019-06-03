@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>readline javascript</title>
+</head>
+<body>
+<script type="text/JavaScript">
+function action(){
+var inputValue = document.getElementById("text").value;
+document.getElementById("print").innerHTML = inputValue;
+}
+</script>
+<input type="text" id="text" oninput="return action();" />
+<div id="print"></div>
+</body>
+</html>
