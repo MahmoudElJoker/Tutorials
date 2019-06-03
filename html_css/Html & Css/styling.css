@@ -1,0 +1,24 @@
+h1{
+color:red;
+font-family:arial;
+border-bottom:1px solid red;
+background-color:Silver;
+text-align:center;
+}
+
+h2{
+color:Navy;
+border-bottom:2px solid Green;
+background-color:Gray;
+}
+
+p.cl1{
+color:Blue;
+font-size:18px;
+}
+
+p.cl2{
+color:Maroon;
+font-size:18px;
+font-family:arial;
+}

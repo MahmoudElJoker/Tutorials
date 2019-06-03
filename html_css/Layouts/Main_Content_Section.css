@@ -1,0 +1,36 @@
+body{
+  background-color: #9c9f84;
+  margin: 0px;
+  font-family: Verdana, Georgia, serif;
+  font-size: 14px;
+}
+
+/*
+we used only height to have a liquid responsive page.
+*/
+#header{
+  background-color: #5c755e;
+  margin: 10px;
+  height: 90px;
+  border-radius: 5px;
+}
+
+#nav{
+  background-color: #5c755e;
+  margin: 10px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.main{
+  background-color: #e5e4d7;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 110%
+}
+
+h1{
+  font-size: 120%;
+  color: #ce282e;
+}

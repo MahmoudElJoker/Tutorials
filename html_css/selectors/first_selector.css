@@ -1,0 +1,50 @@
+#left{
+   width: 300px;
+   float: left;
+   padding: 15px;
+   margin: 10px;
+   background-color: #FFFFFE;
+   border: solid 2px green;
+}
+
+#center{
+   width: 300px;
+   float: left;
+   padding: 15px;
+   margin: 10px;
+   background-color: #ECF1EF;
+   border: solid 2px green;
+}
+
+#right{
+   width: 300px;
+   float: left;
+   padding: 15px;
+   margin: 10px;
+   background-color: #EBECE4;
+   border: solid 2px green;
+}
+
+/*
+another pseudo selector first selecotr and from its name
+it's clear that first selector takes the first letter of a word
+and to use first selector you have to type the tag name and two colon
+after then first-letter keyword.
+like this for example:
+p::first-letter{}
+another keyword in first Selector
+first-line. first line keyword used to make effect on the first line
+as its name describe itself.
+example:
+p::first-line{
+color: red;
+}
+*/
+p::first-letter{
+font-weight: bold;
+font-size: 24px;
+}
+
+p::first-line{
+color: red;
+}

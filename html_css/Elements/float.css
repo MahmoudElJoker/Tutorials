@@ -1,0 +1,26 @@
+h1,h2{
+background-color:green;
+color:yellow;
+}
+div.div1{
+background-color:red;
+color:white;
+/* to float any element need 2 things
+first need to make a width
+like that:-
+width :20px 
+and also need to use a float keyword in css
+float:center for ex..
+ */
+width:50%;
+float:left;
+}
+div.div2{
+background-color:black;
+color:white;
+width:50%;
+float:right;
+}
+p{
+border:2px solid green;
+}

@@ -1,0 +1,33 @@
+#box1 {
+  width: 800px;
+  height: 300px;
+  float: left;
+  background: blue;
+  /*
+  to move to various directions
+  background: linear-gradient(blue,yellow);
+  background: linear-gradient(to right,blue,yellow);
+  background: linear-gradient(to left,blue,yellow);
+  background: linear-gradient(to top,blue,yellow);
+  background: linear-gradient(to bottom,blue,yellow);
+
+  to move to angles
+  background: linear-gradient(to top right,blue,yellow);
+  background: linear-gradient(to top left,blue,yellow);
+  background: linear-gradient(to bottom right,blue,yellow);
+  background: linear-gradient(to bottom left,blue,yellow);
+
+  to move to custom angle
+  background: linear-gradient(30deg,blue,yellow);
+
+  for three different colors
+  background: linear-gradient(green,blue,yellow);
+
+  to make particular color dominate to another color
+  background: linear-gradient(blue,yellow 20%);
+
+  to make straight line of two colors without bleed effect
+  background: linear-gradient(blue 50%,yellow 50%);
+  */
+  background: linear-gradient(blue 50%,yellow 50%);
+}

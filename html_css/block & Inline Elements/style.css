@@ -1,0 +1,21 @@
+div{
+padding:10px;
+border: black 2px solid;
+margin:25px;
+background-color:yellow;
+}
+img.special{
+padding:10px;
+border: black 2px solid;
+/* to convert inline element to block element need to use
+display: block;
+and block element give more control than inline element cuz inline element u can only control left and right side
+but block element u can control each side in ur element top , down , left , right etc..
+*/
+
+/*margin:25px; */
+margin-left:auto;
+margin-right:auto;
+display:block;
+background-color:yellow;
+}

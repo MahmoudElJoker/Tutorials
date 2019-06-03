@@ -1,0 +1,55 @@
+.header{
+text-align:center;
+border-bottom: 2px solid green;
+background-color:Silver;
+color:Navy;
+font-family:SavingsBond;
+}
+p.content1{
+color:Teal;
+font-size:20px;
+font-family:Arial;
+}
+
+.lists{
+color:Maroon;
+font-size:15px;
+font-family:Arial;
+text-align:center;
+}
+.AV{
+background-color:Teal;
+text-align:center;
+}
+.F1{
+color:Navy;
+font-size:20px;
+text-align:center;
+font-family:SavingsBond;
+background:Gray;
+}
+.iframes{
+text-align:center;
+}
+.forms{
+text-align:center;
+color:Maroon;
+font-size:18px;
+}
+.H1{
+background-color:Silver;
+}
+.H5{
+text-align:left;
+border-bottom:2px solid green;
+}
+.P5{
+border-bottom:2px solid Red;
+text-align:left;
+}
+.About{
+background-color:Black;
+color:white;
+text-align:center;
+border-bottom:1px solid red;
+}

@@ -1,0 +1,47 @@
+#left{
+  width: 300px;
+  float: left;
+  padding: 15px;
+  margin: 10px;
+  background-color:  #FFFFFE;
+
+}
+
+#center{
+  width: 300px;
+  float: left;
+  padding: 15px;
+  margin: 10px;
+  background-color:  #ECF1EF;
+
+}
+
+#right{
+  width: 300px;
+  float: left;
+  padding: 15px;
+  margin: 10px;
+  background-color:  #EBECE4;
+
+}
+
+#left, #center, #right{
+  border: solid 2px green;
+}
+
+#left, #center, #right{
+  border: solid 2px orange;
+}
+
+/* JSON Selector does select the next sibling
+example: */
+h2+p{
+color: red;
+}
+/* the plus sign used to denote JSON sibling selector */
+/* using general sibling selector to select every element of same type.
+and that done with ~ sign.
+ */
+h2~p{
+color: red;
+}

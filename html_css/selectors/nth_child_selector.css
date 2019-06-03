@@ -1,0 +1,37 @@
+#right{
+  width: 300px;
+  float: left;
+  padding: 15px;
+  margin: 10px;
+  background-color: #EBECE4;
+}
+
+#right{
+  border: solid 2px orange;
+}
+
+#right{
+  border: solid 2px green;
+}
+
+/*
+nth child selector is a type of pseudo selector.
+to select only even numbers just have to write Even keyword,
+like This
+p:nth-child(even){}
+and the opposite is to use the odd keyword
+p:nth-child(odd){}
+or you can select a straight number like This
+p:nth-child(2){}
+to make an effect after every two numbers for example
+you need to write the number and n
+like This
+p:nth-child(2n){}
+to make a complicated pattern
+p:nth-child(2n + 3){}
+it will start from the third paragraph and then will repeat every two
+numbers.
+*/
+#right p:nth-child(2n + 3){
+  background-color: orange;
+}

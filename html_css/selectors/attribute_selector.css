@@ -1,0 +1,76 @@
+#left{
+  width: 300px;
+  float: left;
+  padding: 15px;
+  margin: 10px;
+  background-color:  #FFFFFE;
+
+}
+
+#center{
+  width: 300px;
+  float: left;
+  padding: 15px;
+  margin: 10px;
+  background-color:  #ECF1EF;
+
+}
+
+#right{
+  width: 300px;
+  float: left;
+  padding: 15px;
+  margin: 10px;
+  background-color:  #EBECE4;
+
+}
+
+#left, #center, #right{
+  border: solid 2px orange;
+}
+
+#left, #center, #right{
+  border: solid 2px green;
+}
+
+/*
+in this example h2+p it means make the effect on the paragraph
+after h2.
+*/
+h2+p{
+color: red;
+}
+/*
+in this example h2~p means make an effect on all paragraphs
+that after h2.
+*/
+h2~p{
+color: red;
+}
+
+/* to select an element by attribute, put the attribute name inside
+square brackets.
+like This:
+p[lang]{
+  background-color: orange;
+}
+to select an element by attribute and value
+p[lang="value_here"]{
+  background-color: orange;
+}
+to select any element that begins with fr for example
+p[lang^="fr"]{
+  background-color: orange;
+}
+to select any element that ends with fr for example
+p[lang$="fr"]{
+  background-color: orange;
+}
+to select a value that any where for example
+p[lang*="us"]{
+  background-color: orange;
+}
+*/
+p[lang*="us"]{
+  background-color: orange;
+}

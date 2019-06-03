@@ -1,0 +1,72 @@
+p{
+background-color:red;
+color:white;
+}
+div{
+background-color:black;
+color:white;
+/*to select the position of an element need to use
+position:absolute;
+then need to use
+left:
+right:
+top:
+bottom:
+width:
+height:
+the interesting thing here in absolute position is about that can float into the flow element
+for example if I did top as 10px it will be on flow element
+*/
+/*
+float:left;
+*/
+
+
+position:absolute;
+top:75px;
+left:150px;
+width:250px;
+
+/*height:250px;*/
+}
+
+/* the difference between absolute position and fixed position 
+fixed position is a constant position mean that will not change
+but absolute position can change!.
+*/
+div.fixed{
+background-color:yellow;
+color:black;
+position:fixed;
+top:50px;
+left:150px;
+}
+
+div.abs1{
+background-color:black;
+color:wihte;
+position:absolute;
+top:95px;
+left:150px;
+}
+div.abs2{
+background-color:black;
+color:wihte;
+position:absolute;
+top:115px;
+left:150px;
+}
+div.abs3{
+background-color:black;
+color:wihte;
+position:absolute;
+top:135px;
+left:150px;
+}
+div.abs4{
+background-color:black;
+color:wihte;
+position:absolute;
+top:155px;
+left:150px;
+}

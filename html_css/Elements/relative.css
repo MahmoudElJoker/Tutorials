@@ -1,0 +1,43 @@
+body{
+background-color:#9c9f84;
+}
+#div1{
+background-color:#e5e4d7;
+padding:10px;
+margin:10px;
+border-radius:5px;
+}
+
+#div2{
+background-color:#e5e4d7;
+padding:10px;
+margin:10px;
+border-radius:5px;
+}
+/*
+all elements in html are static position by default so
+the difference between absolute position and relative position is
+relative position determined by first STATIC element
+but absolute position determined by first NON-STATIC element
+and we also use 
+top
+bottom
+left 
+right
+in relative like absolute position but it different.
+*/
+
+#par{
+color:red;
+position:relative;
+top:5px;
+left:5px;
+}
+#square{
+width:25px;
+height:25px;
+background:red;
+position:relative;
+top:5px;
+left:5px;
+}

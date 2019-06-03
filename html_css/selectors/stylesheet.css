@@ -1,0 +1,48 @@
+/* The type [selectors ] - select by type ***********************/
+h1{
+color: red;
+}
+
+/* The ID Selector - select element with # **********************/
+#par1{
+color: blue;
+}
+
+/* The class Selector - select element with . ********************/
+.par{
+color: orange;
+}
+
+/* combine Selectors - ********************************************/
+h2 , h3 , #par1{
+text-decoration: underline;
+}
+
+/* The Descendant Selector - Select element inside another element */
+div p{
+font-style: italic ;
+}
+
+/* The child Selector - selects DIRECT CHILD element ****************/
+blockquote.bl>b {
+  color: purple;
+}
+/*
+deffernce between child selector and descendant, is that the CHILD
+selector, selects direct child element. in other hand the descendant
+selector select element indirect, which means any styling for CHILD
+selector if wasn't direct won't work.
+example:
+<blockquote class="bl">
+<p>
+  <b> This is paragraph to test child selector </b>
+  </p>
+</blockquote>
+<style>
+blockquote.bl>b {
+  color: purple;
+}
+</style>
+now it won't work that way because it becomes a descendant selector,
+so it will get treated as descendant and not as a direct child.
+*/

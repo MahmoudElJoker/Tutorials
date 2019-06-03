@@ -1,0 +1,52 @@
+#left{
+   width: 300px;
+   float: left;
+   padding: 15px;
+   margin: 10px;
+   background-color: #FFFFFE;
+   border: solid 2px green;
+}
+
+#center{
+   width: 300px;
+   float: left;
+   padding: 15px;
+   margin: 10px;
+   background-color: #ECF1EF;
+   border: solid 2px green;
+}
+
+#right{
+   width: 300px;
+   float: left;
+   padding: 15px;
+   margin: 10px;
+   background-color: #EBECE4;
+   border: solid 2px green;
+}
+
+p{
+color: red;
+}
+
+/*
+not selector is a pseudo selector.
+to use not selector you have to type :not(the_tag_name)
+example:
+:not(p) {
+color: darkgreen;
+}
+it will select every thing except p which mean every thing else
+will be in darkgreen.
+
+important you have to have selector in your stylesheet to make not Selector
+work. in this example we used p selector then you have to make sure
+that you have p selector in your stylesheet like this for example:
+p{
+color: red;
+}
+*/
+
+:not(p) {
+  color: darkgreen;
+}

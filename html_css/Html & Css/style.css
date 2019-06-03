@@ -1,0 +1,194 @@
+h1 , h2{
+/* to make a line 
+use border-bottom : (here the pixel) and make it solid (here is the color)
+and if I wanna to make it as a box then
+I should make something like that :-
+border:2px solid (color here);
+ */
+ 
+background-color: silver;
+font-family: accessories;
+color:maroon;
+border-bottom:1px solid green;
+}
+/* for multiple tags styling use , for ex h1 , h2 */
+h2{
+color:black;
+}
+/*
+p{
+font-family:Arial;
+font-size:25px;
+color:Gray;
+}
+*/
+/* classes very important in css for ex :-
+if I have many paragraphs or headers then I need to use a class
+and select the class name to make styling for that paragraph. */
+
+p.start{
+font-family:Arial;
+font-size:25px;
+color:Gray;
+/* for styling the font most use font-style */
+font-style:italic;
+}
+p.about{
+font-family:Arial;
+font-size:25px;
+color:teal;
+/*for text decoration I also can use overline */
+text-decoration: underline;
+/* inline property height use line-height: 
+ant that mean how many spaces do I wanna between lines like <br /> I can made it by pixel (px) or (em) or (%) as well!.
+*/
+line-height: 35px;
+}
+
+p.testing{
+/*
+Very important in CSS Box model
+there 4 content in box model
+1- Content
+2- Padding
+(
+padding
+padding-left:
+padding-right:
+padding-bottom:
+padding-top:
+or
+         top     right   bottom    left
+padding: 20px    20px     20px     20px;
+)
+3- Border
+(
+border-color:
+border-width:
+border-style:
+or
+border: black 2px solid;
+)
+4- Margin
+(
+margin
+margin-top:
+margin-right:
+margin-left:
+margin-bottom:
+or
+         top     right   bottom    left
+margin: 20px    20px     20px     20px;
+)
+*/
+background-color:#CCCCCC;
+color:Teal;
+font-size:14px;
+line-height:1.5em;
+padding: 20px 20px 20px 20px;
+border-color: black;
+border-width: 2px;
+border-style: solid;
+background-image:url(block_background.jpg);
+}
+/* 
+very important 
+we can use id for styling in css
+like that :
+#id_name_here
+for example
+#mido{
+}
+*/
+#mido{
+text-align:center;
+background-color:yellow;
+font-size: 14px;
+padding: 23px;
+margin: 22px 40% 22px 40%;
+}
+p{
+/*
+to make the cover look pretty good!..
+mean corner and also I can manage it fully with :
+border-left
+border-right
+border-bottom
+border-top
+-----------------
+border-left-radius:
+border-right-radius:
+border-bottom-radius:
+border-bottom-left-radius:
+border-bottom-right-radius:
+border-top-radius:
+border-top-left-radius:
+border-top-right-radius:
+also can use it with
+style color width 
+for ex:-
+border-bottom-style:dotted;
+*/
+border-radius:10px;
+
+}
+p.testing2{
+background-color:#CCCCCC;
+color:Black;
+font-size:14px;
+line-height:1.5em;
+padding:20px;
+padding-left:40px;
+border-color: black;
+border-width: 2px;
+/*
+cool border styling
+solid
+dashed
+dotted
+double
+groove
+ridge
+*/
+border-style: dotted;
+margin:20px;
+margin-top:50px;
+margin-left:300px;
+}
+/*
+to make special effect in links need to use these calsses
+a:link{
+}
+a:visited{
+}
+a:hover{
+}
+*/
+a:link{
+color:blue;
+}
+a:visited{
+color:#8c8c9D;
+}
+a:hover{
+color:#F15A51;
+}
+/*
+block and Inline elements are difference 
+*/
+body{
+border-color: maroon;
+border-width: 4px;
+border-style: solid;
+margin:0;
+}
+.img{
+display:block;
+margin-left: auto;
+margin-right: auto;
+padding: 3px;
+background:Silver;
+border-color: black;
+border-width: 2px;
+border-style: solid;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title>General Topics</title>
+<!-- meta for search engines -->
+<meta name="description" content="General topics in html" />
+<meta name="keyword" content="general,topics,html" />
+<meta http-equiv="language-content" content="en-us" />
+<meta http-equiv="author" content="mido" />
+<!-- I can make a meta tag to refresh the page automatically -
+<meta http-equiv="refresh" content="50"/>
+-->
+</head>
+<body>
+<!-- first topic about white space and skip characters -->
+<!--
+space = &nbsp;
+TM = &#8482;
+copyright = &copy;
+> = &gt;
+< = &lt;
+? = &#63;
+& = &amp;
+
+-->
+<p align="center">mido &nbsp&nbsp&nbsp&nbsp ahlawy </p>
+<p class="mido">mido &copy; copyright 2016</p>
+<p>50 &gt; 40</p>
+<p>80 &lt; 100</p>
+<p>mido &#8482;</p>
+<p>I love c++ &amp; java</p>
+<p>what's next &#63; </p>
+<br />
+<br />
+<!-- iframes -->
+<p><a href="Forms.html" target="myframe">forms</a> &nbsp <a href="Tables.html" target="myframe">tables</a> </p>
+<iframe src="Tables.html" frameborder="1" width="300" height="300" name="myframe" id="myframe" >
+Your browser doesn't support iframes <i>Sorry about that</i>
+</iframe>
+
+<!-- very important target uses
+_blank
+Opens the linked document in a new window or tab.
+_self
+Opens the linked document in the same frame.
+_parent
+Opens the linked document in the parent frame.
+_top
+Opens the linked document in the full body of the window.
+targetframe
+Opens the linked document in a named targetframe.
+-->
+
+<!-- to make a line need to use <hr /> tag -->
+<hr />
+
+<br />
+<br />
+<!-- sup and sub elements
+it something like 
+sup 5^2 , 3^4 etc..
+sub make a text under the current text
+ -->
+<p align="center">5<sup>2</sup> × 3<sup>4</sup>
+<p align="CENTER"> water is equal to H<sub>2</sub>O</p>
+
+<br />
+<br />
+<!-- title and alt attribute -->
+<!--
+alt is an error message if the file missed or something
+-->
+<div class="mido" align="center">
+<img src="MiDO-Hugh-Jackman_1.png" alt="the image that you try to access is no longer in server any more.." title="Hugh Jackman" width="300" height="300"/>
+</div>
+
+<br />
+<br />
+<div class="audio-video" align="center">
+<!-- audio elements -->
+<!--
+autoplay for auto play
+can add more than one version in audio elements
+autoplay a cool attribute to play the audio automatically  [like youtube for example]
+and to make the audio play over and over and over ...
+need to use loop attribute
+for drag the audio position on the page need to use a draggable attribute
+but that work only with javascript, jquery as well!.
+-->
+<audio controls loop draggable="true">
+<source src="One Direction - Fool's Gold.mp3" />
+<source src="One Direction - Ready to Run.mp3" />
+</audio>
+<br />
+<br />
+<!-- video elements -->
+<!-- is not match different of audio elements in attributes. -->
+<video autoplay controls width="640" height="360" loop>
+<source src="One Direction - One Thing.mp4" />
+</video>
+</div>
+
+
+</body>
+</html>
