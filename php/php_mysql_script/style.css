@@ -1,0 +1,168 @@
+body{
+margin:0px;
+padding:0px;
+}
+#header{
+background-color:white;
+border-bottom:3px solid #663366; 
+}
+h1{
+text-align:center;
+color: Maroon;
+padding : 5px;
+margin : 5px;
+font-size:50px;
+}
+p{
+text-align:center;
+color: Gray;
+font-size:20;
+font-family: "Times New Roman", Times, Serif;
+}
+
+/*NAVBAR SECTION*/
+#navbar{
+text-align:center;
+font-size:20px;
+background:#333333;
+width:1100px;
+height:6.3%;
+line-height:40px;
+margin-top:0px;
+margin-left:160px;
+margin-right:auto;
+margin-bottom:0;
+border-radius:15px;
+}
+#navbar ul li{
+display:inline;
+padding:5px;
+margin:15px;
+font-family: "Times New Roman", Times, Serif;
+}
+#navbar ul{
+padding:0px;
+margin:5px;
+list-style:none;
+position:relative;
+}
+#navbar a{
+text-decoration: none;
+color:white;
+padding: 9px 3px 9px 3px;
+margin-top:5px;
+}
+#navbar a:hover{
+background-color:Silver;
+color:black;
+}
+
+/* Login Form */
+#login-form{
+display: table;
+color:Gray;
+height:150px;
+width:400px;
+padding:15px;
+border: 1px solid Silver;
+background-color: white;
+border-radius:10px;
+background-color:light;
+position:absolute;
+top:33%;
+right:50%;
+left:37%;
+text-align:center;
+}
+#login-form a{
+text-decoration: none;
+}
+
+#sign-up-lp,#sign-in-lp{
+list-style-type:none;
+color:Silver;
+margin:2px;
+margin-top:7px;
+margin-left:10px;
+padding:2px;
+height:35px;
+width:75px;
+background-color:Purple;
+border-radius:10px;
+border: 1px solid #999999;
+}
+
+#sign-up-lp:hover,#sign-in-lp:hover{
+background-color:Silver;
+color:black;
+}
+
+#forget_pass-lp a{
+text-decoration: none;
+color:Darkblue;
+font-family:Arial;
+font-size:13px;
+}
+#forget_pass-lp a:hover{
+color:Gray;
+}
+
+#user-name,#password,#email,#first-name,#last-name{
+height:30px;
+width:250px;
+border-radius:10px;
+padding:8px;
+border:1px solid silver;
+}
+
+.row{
+display: table-row;
+margin:5px;
+padding:5px;
+}
+.row label{
+display: table-cell;
+padding: 10px;
+margin:10px;
+text-align:right;
+}
+.row  input{
+display: table-cell;
+padding: 2px;
+margin-top:15px;
+}
+
+#selects{
+height:50px;
+width:270px;
+margin-top:15px;
+border-radius:10px;
+padding:10px;
+border:1px solid silver;
+}
+
+.gender{
+padding: 10px;
+margin:15px;
+font-family:Arial;
+font-size:17px;
+color:Gray;
+float:right;
+margin-right:150px;
+margin-top:-45px;
+}
+#Register{
+display: table;
+color:Gray;
+height:280px;
+width:760px;
+padding:15px;
+border: 1px solid Silver;
+background-color: white;
+border-radius:10px;
+background-color:light;
+position:absolute;
+right:200px;
+top:210px;
+text-align:center;
+}

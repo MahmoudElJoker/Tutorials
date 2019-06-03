@@ -1,0 +1,42 @@
+very important query commands in standard SQL(STRUCTURE QUERY LANGUAGE) :-
+
+1- Integral Data Types
+- TINYINT : 127 to -128    takes 1 bytes
+- BIT : the same thing as TINYINT
+- BOOL : as above
+- SMALLINT : 32,768 to-32,767     takes 2 bytes
+- MEDIUM INT : 8,388,608 to -8,388,608  takes 3 bytes
+- INT : 2^31 to -2^31 -1     takes 4 bytes
+- INTEGER : the same thing as INT
+- BIGINT : 2^63 to -2^63 -1  takes Big integers 
+with 8 bytes size
+
+2-Floating-Point Data Types
+- FLOAT : ±1.175494351E-38 to ±3.402823466E+38   takes 4 bytes
+- DOUBLE : ±1.7976931348623157E+308  to ±2.2250738585072014E-308 takes 8 bytes
+- PRECISION : as above
+- REAL : as above
+- DECIMAL : varies cuz this a floating-point number that stored as char.
+The range depends on M, the display width.  takes M+2
+- NUMERIC : as above
+- DEC : as above
+- FIXED : as above
+
+2- String Types
+- CHAR : A Character string with a fixed length
+- VARCHAR : A character string with a length that's variable
+- BLOB : Can contain 2^16 bytes of data
+
+- ENUM : A character string that has a limited number of total values,
+which you must define.
+- SET : A list of legal possible character strings.
+Unlike ENUM, a SET can contain multiple values in comparison to the one 
+legal value with ENUM.
+
+3- Date Types
+- DATE : YYYY-MM-DD
+- TIME : HH:MM:SS
+- TIMESTAMP : YYYYMMDDHHMMSS
+- YEAR : YYYY
+
+

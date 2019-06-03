@@ -1,0 +1,79 @@
+//to show the contents of tables
+DESCRIBE table_name;
+
+//to add primary key with multiple rows
+ADD PRIMARY KEY(first_column_name,second_column_name);
+
+// to show databases
+SHOW DATABASES;
+
+//to select table
+USE table_name;
+
+// to show all data in the table
+SELECT * FROM table_name;
+
+// to insert data into table
+INSERT INTO table_name VALUES (
+
+);
+
+//to drop table
+DROP TABLE table_name;
+
+//to drop database
+DROP DATABASE database_name;
+
+//to create table
+CREATE TABLE table_name;
+
+//or
+//for ex
+CREATE TABLE table_name(
+id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+first_name VARCHAR(30) NOT NULL,
+last_name VARCHAR(30) NOT NULL,
+email VARCHAR(60) NULL,
+gender ENUM('MALE','FEMALE') NOT NULL,
+data_entered DATE NOT NULL);
+
+//to add column to table
+ALTER TABLE table_name
+ADD column_name INT UNSIGNED NOT NULL;
+// to add the column in specific position
+ADD column_name INT UNSIGNED NOT NULL AFTER the_other_column_name;
+
+
+//to change name of column
+ALTER TABLE table_name CHANGE column_name column_new_name INT UNSIGNED NOT NULL;
+
+//to comment anything in SQL
+# comment
+
+//to rename the table
+RENAME TABLE table_name TO table_new_name;
+
+//to display the column reverse order
+ORDER BY column_name DESC;
+
+//to order the column
+ORDER BY column_name ASC;
+
+// to concat -> using CONCAT function
+SELECT CONCAT(column_name," ",second_column_name) AS 'the_new_title_of_column'
+FROM table_name;
+
+//to skip characters for ex:-
+//to skip first character
+SELECT column_name FROM table_name WHERE column_name LIKE '_c';
+//to skip 2 characters
+SELECT column_name FROM table_name WHERE column_name LIKE '__c'; //etc..
+
+---------------------
+to describe your table
+DESCRIBE $TABLE_NAME;
+
+//to join 2 tables or more
+SELECT column_name,second_column_name
+FROM table_name,Second_table_name
+WHERE table_name.column_name = Second_table_name.second_column_name;
