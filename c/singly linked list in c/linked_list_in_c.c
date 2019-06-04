@@ -244,7 +244,6 @@ free(Del);
 }
 
 int main(){
-  
     insertElement(5);
     insertElement(50);
     insertElement(6);
