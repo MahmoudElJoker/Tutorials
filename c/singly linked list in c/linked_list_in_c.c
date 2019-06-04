@@ -252,17 +252,16 @@ int main(){
     insertElementAtF(10);
     displayList();
     delElmentAtB();
-	displayList();
+    displayList();
     delElementAtE();
-	displayList();
+    displayList();
     DelByPos(5);
-	displayList();
+    displayList();
     DelByValue(6);
     displayList();
     printf("\n%d",Length());
     printf("\n");
     searchByPos(3);
-	system("pause");
-
-return 0;
+    system("pause");
+    return 0;
 }
