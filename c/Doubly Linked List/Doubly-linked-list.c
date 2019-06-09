@@ -93,51 +93,30 @@ that object for new objects.
 
 
 int main() {
-    //printf("size of Node: %d\n", sizeof(PtrNode) );
-    /*
 	insertElementAtF(9);
-	
 	insertElementAtF(12);
-	
 	insertElementAtF(15);
 	insertElementAtF(65);
 	insertElementAtF(11);
 	insertElementAtF(33);
-*/
-    
-    insertElementAtE(57);
-    insertElementAtE(25);
- 
-    insertElementAtE(13);
-    
-    insertElementAtE(98);
-    printf("Length: %d\n",Length);
-    displayList();
-    deleteByPos(4);
-    insertInPos(800,4);
+        insertElementAtE(57);
+        insertElementAtE(25);
+        insertElementAtE(13);
+        insertElementAtE(98);
+        displayList();
+        deleteByPos(4);
+        insertInPos(800,4);
 	insertElementAtE(7);
 	insertElementAtE(56);
-    insertElementAtE(952);
-    insertElementAtE(968);
-    insertElementAtE(793);
-    
-    //displayList();
-    //deleteFirstElement();
-   
-  // printf("Length : %d\n\n",Length);
-   displayList();
-   displayListInRevOrder();
-    /*
+        insertElementAtE(952);
+        insertElementAtE(968);
+        insertElementAtE(793);
+        displayList();
+        deleteFirstElement();
+        displayList();
+        displayListInRevOrder();
 	deleteLastElement();
-	deleteLastElement();
-	deleteLastElement();
-    deleteLastElement();
-    */
-	//displayList();
-	
-	//deleteFirstElement();
-	
-	
+	displayList();
 	printf("\n\n");
 	system("pause");
 	return 0;
